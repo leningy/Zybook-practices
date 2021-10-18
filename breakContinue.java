@@ -17,9 +17,9 @@ public class SimonSays {
         userPattern  = scnr.next();
 
        for (i = 0; i < simonPattern.length(); ++i) {
-           if (simonPattern.charAt(i)== userPattern.charAt(i)) {userScore++;} 
+           if (simonPattern.charAt(i)== userPattern.charAt(i)) {userScore++;} // checks how many char match before one doesn't
        else {
-           break;
+           break; //exit loop as soon as one char doesn't match
        }
 }
 
