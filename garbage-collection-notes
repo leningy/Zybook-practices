@@ -1,0 +1,6 @@
+- garbage collection: a program's executable includes automatic behavior that at various intervals finds all unreachable — i.e., 
+unused — allocated memory locations, and automatically frees such memory locations in order to enable memory reuse. 
+
+- reference count: the Java virtual machine keeps a count of all reference variables that are [currently referring to an object]. 
+
+- unreachable object: If the reference count is zero and it's eligible for garbage collection, as no variables in the program refer to the object.
