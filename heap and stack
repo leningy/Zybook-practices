@@ -1,0 +1,5 @@
+- Static memory: The region where static fields are allocated
+
+- The stack: The region where a method's local variables are allocated during a method call. [automatic memory]
+
+- The heap: The region where the "new" operator allocates memory for objects. The region is also called [free store].
