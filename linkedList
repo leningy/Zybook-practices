@@ -1,0 +1,5 @@
+import java.util.LinkedList; 
+
+LinkedList<T> linkedList = new LinkedList<T>(); 
+
+A class is defined to represent each list item, known as a list node. 
