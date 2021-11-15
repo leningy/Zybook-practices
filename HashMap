@@ -1,0 +1,5 @@
+import java.util.HashMap;
+
+HashMap<K, V> hashMap = new HashMap<K, V>();
+
+* The Map interface within the Java Collections Framework defines a Collection that associates (or maps) keys to values. *
