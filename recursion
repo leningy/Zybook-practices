@@ -1,0 +1,12 @@
+A method that calls itself is a recursive method
+
+A binary search algorithm begins at the midpoint of the range and halves the range after each guess. 
+
+The recursive method has an if-else statement. The if branch ends the recursion, known as the base case.
+
+- Every recursive method must have a case that returns a value without performing a recursive call. That case is called the base case. 
+- The programmer then adds the recursive case to the method.
+
+**Algorithms**
+The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, etc.; starting with 0, 1, the pattern is to compute the next number by adding the previous two numbers.
+solve the greatest common divisor problem.
