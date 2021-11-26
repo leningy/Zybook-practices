@@ -10,3 +10,7 @@ The recursive method has an if-else statement. The if branch ends the recursion,
 **Algorithms**
 The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, etc.; starting with 0, 1, the pattern is to compute the next number by adding the previous two numbers.
 solve the greatest common divisor problem.
+
+Each method call places a new stack frame on the stack, for local parameters, local variables, and more method items. Upon return, the frame is deleted.
+
+Deep recursion could fill the stack region and cause a stack overflow
